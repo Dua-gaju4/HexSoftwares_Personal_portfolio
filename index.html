@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dua Gaju - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">DG</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-scroll>Home</a>
+                <a href="#about" class="nav-link" data-scroll>About</a>
+                <a href="#skills" class="nav-link" data-scroll>Skills</a>
+                <a href="#projects" class="nav-link" data-scroll>Projects</a>
+                <a href="#experience" class="nav-link" data-scroll>Experience</a>
+                <a href="#contact" class="nav-link" data-scroll>Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">Hi, I'm Dua Gaju</span>
+            </h1>
+            <div class="typing-wrapper">
+                <p class="typing-text">I'm a <span class="typing" id="typingText"></span></p>
+            </div>
+            <p class="hero-subtitle">
+                Full Stack Developer | UI/UX Enthusiast | Problem Solver
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary" data-scroll>View My Work</a>
+                <a href="#contact" class="btn btn-secondary" data-scroll>Get In Touch</a>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="Images/profilepicture.jpeg" alt="Profile Picture" class="profile-img">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        I'm a passionate full-stack developer with 5+ years of experience building scalable web applications. 
+                        I specialize in creating elegant solutions to complex problems with a focus on user experience and code quality.
+                    </p>
+                    <p class="about-paragraph">
+                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
+                        or sharing knowledge with the developer community.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Web Development Skills -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">💻 Web Development</h3>
+                    <div class="skill-list">
+                        <p class="skill-text">✓ HTML5, CSS3, JavaScript (Frontend Development)</p>
+                        <p class="skill-text">✓ Responsive Web Design</p>
+                        <p class="skill-text">✓ UI Development from Figma to Code</p>
+                        <p class="skill-text">✓ Frontend Optimization & Layout Structuring</p>
+                        <p class="skill-text">✓ Modern UI Enhancements (animations, dark mode, transitions)</p>
+                    </div>
+                </div>
+
+                <!-- UI/UX Design Skills -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🎨 UI/UX Design</h3>
+                    <div class="skill-list">
+                        <p class="skill-text">✓ UI/UX Design Principles</p>
+                        <p class="skill-text">✓ Website Redesign (Real-world products)</p>
+                        <p class="skill-text">✓ Wireframing & Prototyping</p>
+                        <p class="skill-text">✓ User-Centered Design Thinking</p>
+                        <p class="skill-text">✓ Visual Hierarchy & Layout Improvement</p>
+                    </div>
+                </div>
+
+                <!-- Networking & Systems Skills -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🌐 Networking & Systems</h3>
+                    <div class="skill-list">
+                        <p class="skill-text">✓ Computer Networks fundamentals</p>
+                        <p class="skill-text">✓ Cisco Packet Tracer simulation</p>
+                        <p class="skill-text">✓ IoT Network Design</p>
+                        <p class="skill-text">✓ Network topology design & configuration</p>
+                        <p class="skill-text">✓ Data Communication concepts</p>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🛠 Tools & Platforms</h3>
+                    <div class="skill-list">
+                        <p class="skill-text">✓ Cisco Packet Tracer</p>
+                        <p class="skill-text">✓ Git & GitHub (commits, branches, pull requests)</p>
+                        <p class="skill-text">✓ VS Code</p>
+                        <p class="skill-text">✓ Figma (UI/UX design tool)</p>
+                    </div>
+                </div>
+
+                <!-- Professional & Internship Skills -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">💼 Professional Skills</h3>
+                    <div class="skill-list">
+                        <p class="skill-text">✓ Internship experience at Hex Software</p>
+                        <p class="skill-text">✓ Team collaboration & task management</p>
+                        <p class="skill-text">✓ Project documentation & reporting</p>
+                        <p class="skill-text">✓ LinkedIn post writing (professional branding)</p>
+                        <p class="skill-text">✓ Agile-style workflow understanding</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/imageplatform.jpeg" alt="Social Media Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Social Media Platform</h3>
+                        <p class="project-description">
+                            A dynamic social media platform built with PHP and MySQL, featuring user authentication, posting, and interaction capabilities. Strengthened backend development and database integration skills.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/imageToDO.png" alt="To-Do List Application">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">To-Do List Application</h3>
+                        <p class="project-description">
+                            A fully functional to-do list web application with task management, add/delete functionality, and interactive responsive UI. Enhanced frontend skills and DOM manipulation expertise.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/imageSAAS.jpeg" alt="AI-Integrated Learning Management System">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Integrated LMS (SaaS)</h3>
+                        <p class="project-description">
+                            An AI-powered SaaS product focused on the education sector. Developed an AI-Integrated Learning Management System aimed at improving academic performance and student well-being through intelligent learning solutions.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">SaaS</span>
+                            <span class="tag">EdTech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Internships</h2>
+            <div class="timeline">
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Web Developer</h3>
+                            <span class="timeline-date">Apr 2026 - Present</span>
+                        </div>
+                        <p class="timeline-company">HexSoftwares</p>
+                        <p class="timeline-description">
+                            Currently working as a Web Development Intern at HexSoftwares, gaining hands-on experience in building modern and responsive web applications. Working on real-world projects focused on HTML, CSS, and JavaScript, enhancing skills in frontend development, GitHub version control, and problem-solving abilities.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight">HTML & CSS</span>
+                            <span class="highlight">JavaScript</span>
+                            <span class="highlight">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Full Stack Developer with UI/UX Designer</h3>
+                            <span class="timeline-date">Feb 2026 - Present</span>
+                        </div>
+                        <p class="timeline-company">WebDev Masters</p>
+                        <p class="timeline-description">
+                            Collaborated with a team to conceptualize and design an AI-powered SaaS product focused on education. Participated in developing an AI-Integrated Learning Management System (LMS) aimed at improving academic performance and student well-being. Enhanced skills in product strategy, SaaS development planning, and collaborative teamwork.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight">SaaS</span>
+                            <span class="highlight">Product Development</span>
+                            <span class="highlight">AI Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">UI Designer</h3>
+                            <span class="timeline-date">Feb 2026 - Mar 2026</span>
+                        </div>
+                        <p class="timeline-company">DevelopersHub Corporation©</p>
+                        <p class="timeline-description">
+                            Internship focused on user interface design and modern design principles.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight">UI Design</span>
+                            <span class="highlight">Figma</span>
+                            <span class="highlight">Design Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Healthcare Outreach Specialist</h3>
+                            <span class="timeline-date">Sep 2025 - Feb 2026</span>
+                        </div>
+                        <p class="timeline-company">Work N Solution | Practice Growth Specialists</p>
+                        <p class="timeline-description">
+                            Professional Outreach Specialist supporting healthcare providers. Connected doctors and clinics with expert medical billing & credentialing services. Engaged providers and linked them with trusted billing and credentialing experts.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight">Healthcare Outreach</span>
+                            <span class="highlight">Medical Billing</span>
+                            <span class="highlight">Credentialing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Team Lead Supervisor</h3>
+                            <span class="timeline-date">Oct 2024</span>
+                        </div>
+                        <p class="timeline-company">World Health Organization</p>
+                        <p class="timeline-description">
+                            Monitored quality of vaccination service delivery and team performance. Supervised and trained immunization teams. Planned and scheduled team activities to maximize coverage. Conducted field validation and independent post-campaign monitoring through surveys and house visits.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight">Team Leadership</span>
+                            <span class="highlight">Data Analysis</span>
+                            <span class="highlight">Quality Assurance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 6 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Team Manager</h3>
+                            <span class="timeline-date">Sep 2023 - Oct 2023</span>
+                        </div>
+                        <p class="timeline-company">World Health Organization</p>
+                        <p class="timeline-description">
+                            Worked closely with human resources to support employee management and organizational planning. Assessed company operations for compliance with safety standards. Collaborated with team members to achieve project milestones with set deadlines.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight">Team Management</span>
+                            <span class="highlight">Public Health</span>
+                            <span class="highlight">Data Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Let's Connect</h3>
+                    <p class="contact-description">
+                        I'm always interested in hearing about new projects and opportunities. Feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:duagaju0410@gmail.com">duagaju0410@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/dua-gaju-baa564305/" target="_blank">Visit My Profile</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Dua-gaju4" target="_blank" class="social-link" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.002 12.002 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dua-gaju-baa564305/" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.448 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.004 1.432-.103.25-.129.599-.129.949v5.424h-3.554s.05-8.799 0-9.719h3.554v1.375c.427-.659 1.191-1.597 2.897-1.597 2.117 0 3.704 1.385 3.704 4.362v5.579zM5.337 9.432c-1.141 0-1.889-.756-1.889-1.704 0-.963.748-1.704 1.93-1.704 1.18 0 1.888.741 1.908 1.704 0 .948-.728 1.704-1.949 1.704zm-1.542 11.02h3.085V9.714H3.795v10.738zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.265-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dua Gaju. All rights reserved.</p>
+            <p>Designed and built with <span class="heart">❤️</span> by Dua Gaju</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
